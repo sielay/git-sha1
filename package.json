@@ -1,0 +1,38 @@
+{
+  "name": "git-sha1-commit",
+  "version": "1.0.0",
+  "description": "Small snippet allowing to create valid git commit SHA1.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^7.1.0",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sielayltd/git-sha1.git"
+  },
+  "keywords": [
+    "git",
+    "sha1",
+    "commit",
+    "message",
+    "hash",
+    "long",
+    "short"
+  ],
+  "author": "lukaszsielski@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sielayltd/git-sha1/issues"
+  },
+  "homepage": "https://github.com/sielayltd/git-sha1"
+}
